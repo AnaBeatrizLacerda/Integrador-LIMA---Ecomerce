@@ -19,18 +19,30 @@ body {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.85);
     padding: 10px 60px;
+<<<<<<< HEAD
     height: 210px;
+=======
+    height: 150px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     width: 100%;
 }
 
 .nav-logo {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     width: 500PX;
 }
 
 .logo-img {
     height: 150px;
+=======
+    width: 300PX;
+}
+
+.logo-img {
+    height: 110px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     width: auto;
     object-fit: contain;
 }
@@ -38,16 +50,27 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
+<<<<<<< HEAD
     gap: 35px;
+=======
+    gap: 45px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     align-items: center;
 }
 
 .nav-item {
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 24px;
     font-weight: bold;
     font-family: Arial, sans-serif;
     padding-bottom: 5px;
+=======
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding-bottom: 8px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     display: inline-block;
     cursor: pointer;
 }
@@ -65,8 +88,13 @@ body {
 }
 
 .perfil-imagem {
+<<<<<<< HEAD
     height: 70px;
     width: 300px;
+=======
+    height: 40px;
+    width: 40px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     object-fit: contain;
     cursor: default;
 }
@@ -75,20 +103,33 @@ body {
 .hero-section {
     position: relative;
     width: 100%;
+<<<<<<< HEAD
     height: 880px;
+=======
+    height: 680px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
 }
 
 .conteudo-introducao {
     position: absolute;
     bottom: -20px;
+<<<<<<< HEAD
     left: 3.9%;
     max-width: 540px;
+=======
+    left: 5.8%;
+    max-width: 440px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
 }
 
 .introducao-texto {
     color: #9da5b4;
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
     font-size: 28px;
+=======
+    font-size: 18px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     line-height: 1.6;
     margin-bottom: 25px;
     text-shadow: 2px 0px 4px #000;
@@ -101,7 +142,11 @@ body {
 
 .btn-museu {
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+    font-size: 11px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     padding: 14px 28px;
     cursor: pointer;
@@ -134,7 +179,11 @@ body {
 /* BARRA DE RECURSOS */
 .container-recursos {
     position: absolute;
+<<<<<<< HEAD
     top:1090px;
+=======
+    top:890px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     bottom: auto;
     left: 0;
     width: 100%;
@@ -170,14 +219,22 @@ body {
 
 .recurso-texto h3 {
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 34px;
+=======
+    font-size: 31px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 .recurso-texto p {
     color: #a0aec0;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 18px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     white-space: nowrap;
 }
 
@@ -193,15 +250,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+<<<<<<< HEAD
     gap: 50px;
     width: 100%;
     margin: 540px 0 0 0;
+=======
+    gap: 30px;
+    width: 100%;
+    margin: 480px 0 0 0;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     padding: 0 180px 0 80px
 }
 
 .secao-galeria {
     flex: 1 1 auto;
+<<<<<<< HEAD
     max-width: 1480px;
+=======
+    max-width: 1180px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     min-width: 0;
     font-family: Arial, sans-serif;
     padding: 0 8x;
@@ -216,7 +283,11 @@ body {
 
 .galeria-titulo {
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 40px;
+=======
+    font-size: 38px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -232,7 +303,11 @@ body {
     border: 1px solid #3d4554;
     color: #ffffff;
     padding: 6px 30px 6px 10px;
+<<<<<<< HEAD
     font-size: 28px;   
+=======
+    font-size: 12px;   
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     width: 260px; 
     outline: none;
 }
@@ -248,13 +323,21 @@ body {
 .galeria-filtros {
     display: flex;
     gap: 20px;
+<<<<<<< HEAD
     margin-bottom: 85px;
+=======
+    margin-bottom: 35px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     flex-wrap: wrap;
 }
 
 .filtro-btn {
     background: none;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+    font-size: 16px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     padding: 5px 12px;
     cursor: pointer;
@@ -288,7 +371,11 @@ body {
     background: none;
     border: none;
     color: #c49233;
+<<<<<<< HEAD
     font-size: 28px;
+=======
+    font-size: 24px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     cursor: pointer;
     padding: 5px;
     transition: transform 0.2s;
@@ -299,7 +386,11 @@ body {
 .galeria-grid {
     display: flex;
     width: 100%;
+<<<<<<< HEAD
     gap: 30px;
+=======
+    gap: 12px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
 }
 
 .card-mob {
@@ -316,7 +407,11 @@ body {
 
 .tag-card {
     align-self: flex-start;
+<<<<<<< HEAD
     font-size: 14;
+=======
+    font-size: 10;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     padding: 2px 6px;
     margin-bottom: 14px;
@@ -327,7 +422,11 @@ body {
 .tag-cancelados { border: 1px solid #e02424; color: #e02424; }
 
 .mob-foto {
+<<<<<<< HEAD
     height: 200px;
+=======
+    height: 180px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     width: auto;
     object-fit: contain;
     margin-bottom: 15px;
@@ -335,7 +434,11 @@ body {
 
 .mob-nome {
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 30px;
+=======
+    font-size: 28px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     margin-bottom: 4px;
     letter-spacing: 0.5px;
@@ -343,7 +446,11 @@ body {
 
 .mob-desc {
     color: #626d83;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 18px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -358,7 +465,11 @@ body {
     width: 60%;
     cursor: pointer;
     transition: all 0.2s;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    margin-bottom: 18px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
 }
 .btn-comprar:hover {
     background-color: #1c64f2;
@@ -370,17 +481,30 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
+<<<<<<< HEAD
     gap: 60px;
+=======
+    gap: 12px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
 }
 
 .indicadores-paginas {
     display: flex;
+<<<<<<< HEAD
     gap: 10px;
 }
 
 .bola {
     width: 8px;
     height: 8px;
+=======
+    gap: 6px;
+}
+
+.bola {
+    width: 6px;
+    height: 6px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     background-color: #3d4554;
     border-radius: 50%;
 }
@@ -390,13 +514,21 @@ body {
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid #1c64f2;
     color: #4da3ff;
+<<<<<<< HEAD
     font-size: 30px;
+=======
+    font-size: 20px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     padding: 6px 12px;
     cursor: pointer;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     gap: 3px;
+=======
+    gap: 4px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     transition: background-color 0.2s;
 }
 .btn-explorar-mais:hover { background-color: rgba(28, 100, 242, 0.15); }
@@ -405,17 +537,30 @@ body {
 .cards-container {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     gap: 15PX;
     flex-shrink: 0;
     width: 465px;
+=======
+    gap: 25PX;
+    flex-shrink: 0;
+    width: 320px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-family: Arial, sans-serif;
 }
 
 .card {
+<<<<<<< HEAD
     width: 560PX;
     padding: 50px;
     background-color: #12131c;
     border-radius: 2px;
+=======
+    width: 400PX;
+    padding: 40px;
+    background-color: #12131c;
+    border-radius: 4px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     text-align: center;
 }
 
@@ -429,35 +574,59 @@ body {
 
 .card h2 {
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 50px;
     margin-bottom: 8px;
+=======
+    font-size: 32px;
+    margin-bottom: 12px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     letter-spacing: 1px;
 }
 
 .card-section {
+<<<<<<< HEAD
     margin-bottom: 0px;
+=======
+    margin-bottom: 10px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     text-align: left;
 }
 
 .card-section h3 {
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 14px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     margin-bottom: 1px;
 }
 
 .card-section p {
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 16px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     line-height: 1.2;
 }
 
 .btn {
     display: inline-block;
     text-decoration: none;
+<<<<<<< HEAD
     font-size: 20px;
     text-transform: uppercase;
     padding: 4px 10px;
     margin-top: 25px;
+=======
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    margin-top: 4px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     margin-bottom: 2px;
     background: transparent;
     transition: background 0.3s;
@@ -469,17 +638,28 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+<<<<<<< HEAD
     width: 99%;
     gap: 22px;
     margin: 160px 0 0 0;
     padding: 0 55px;
+=======
+    width: 100%;
+    gap: 30px;
+    margin: 110px 0 0 0;
+    padding: 0 45px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-family: Arial, sans-serif;
 }
 
 .card-estatistica {
     flex: 1;
     background-color: rgba(0, 0, 0, 0.4);
+<<<<<<< HEAD
     padding: 60px 15px;
+=======
+    padding: 20px 15px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -495,7 +675,11 @@ body {
 .borda-laranja { border: 1px solid #c49233; }
 
 .estatistica-numero {
+<<<<<<< HEAD
     font-size: 38px;
+=======
+    font-size: 36px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     letter-spacing: 1px;
     margin-top: 10px;
@@ -542,7 +726,11 @@ body {
 
 .rodape-coluna h3 {
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 22px;
+=======
+    font-size: 16px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     font-weight: bold;
     margin-bottom: 6px;
     letter-spacing: 1px;
@@ -554,7 +742,11 @@ body {
 
 .rodape-coluna ul li {
     color: #a0aec0;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+    font-size: 12px;
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     margin-bottom: 3px;
     cursor: default;
 }
@@ -562,7 +754,11 @@ body {
 .col-logo { max-width: 180px; }
 
 .rodape-logo {
+<<<<<<< HEAD
     width: 220px; 
+=======
+    width: 200px; 
+>>>>>>> 80b2212b672c42785b15e84c8a72535e4fb8d1f2
     height: auto; 
     object-fit: contain;
     margin: 0 0px 0px 40px;
