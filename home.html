@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu de Mobs Perdidos</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="img/logo_museu.png" alt="Museu de Mobs Perdidos" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><span class="nav-item active">INÍCIO</span></li>
+            <li><span class="nav-item">MUSEU</span></li>
+            <li><span class="nav-item">LOJA</span></li>
+            <li><span class="nav-item">ARQUIVOS</span></li>
+        </ul>
+        <div class="perfil">
+            <img src="img/foto_perfil.png" alt="Perfil" class="perfil-imagem">
+        </div>
+    </nav>
+
+    <!-- HERO: imagem de fundo + introdução + recursos sobrepostos -->
+    <div class="hero-section">
+
+        <!-- Texto + botões (canto inferior esquerdo sobre o hero) -->
+        <div class="conteudo-introducao">
+            <p class="introducao-texto">
+                Bem vindo ao museu - preservamos a história dos mobs que nunca chegaram ao jogo... ou que foram apagados dela.
+            </p>
+            <div class="introducao-botoes">
+                <button class="btn-museu btn-azul">DESTAQUE DO DIA</button>
+                <button class="btn-museu btn-transparente">COMO FUNCIONA?</button>
+            </div>
+        </div>
+
+        <!-- Barra de recursos (sobre o hero) -->
+        <section class="container-recursos">
+            <div class="item-recurso">
+                <img src="img/icone_mobs.png" alt="Mobs" class="imagem-recurso">
+                <div class="recurso-texto">
+                    <h3>MOBS</h3>
+                    <p>+ 200 mobs catalogados</p>
+                </div>
+            </div>
+            <div class="divisor-recurso"></div>
+            <div class="item-recurso">
+                <img src="img/icone_historia.png" alt="História" class="imagem-recurso">
+                <div class="recurso-texto">
+                    <h3>HISTÓRIA</h3>
+                    <p>Documento e curiosidades</p>
+                </div>
+            </div>
+            <div class="divisor-recurso"></div>
+            <div class="item-recurso">
+                <img src="img/icone_loja.png" alt="Loja" class="imagem-recurso">
+                <div class="recurso-texto">
+                    <h3>LOJA</h3>
+                    <p>Itens exclusivos do museu</p>
+                </div>
+            </div>
+            <div class="divisor-recurso"></div>
+            <div class="item-recurso">
+                <img src="img/icone_comunidade.png" alt="Comunidade" class="imagem-recurso">
+                <div class="recurso-texto">
+                    <h3>COMUNIDADE</h3>
+                    <p>Resgate, vote e participe!</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- /hero-section -->
+
+    <!-- CONTEÚDO PRINCIPAL: galeria + cards lado a lado -->
+    <div class="secao-principal">
+
+        <!-- GALERIA DE MOBS -->
+        <section class="secao-galeria">
+            <div class="galeria-topo">
+                <h2 class="galeria-titulo">GALERIA DE MOBS PERDIDOS</h2>
+                <div class="pesquisa-wrapper">
+                    <input type="text" placeholder="Pesquisar mob..." class="input-pesquisa">
+                    <span class="icone-lupa">&#x1F50D;</span>
+                </div>
+            </div>
+
+            <div class="galeria-filtros">
+                <button class="filtro-btn active btn-todos">TODOS</button>
+                <button class="filtro-btn btn-alpha">ALPHA</button>
+                <button class="filtro-btn btn-beta">BETA</button>
+                <button class="filtro-btn btn-secretos">SECRETOS</button>
+                <button class="filtro-btn btn-cancelados">CANCELADOS</button>
+            </div>
+
+            <div class="galeria-grid-wrapper">
+                <button class="seta-carrossel seta-esquerda">&#x276E;</button>
+                <div class="galeria-grid">
+
+                    <div class="card-mob">
+                        <span class="tag-card tag-alpha">ALPHA</span>
+                        <img src="img/beast_boy.jpeg" alt="Beast Boy" class="mob-foto">
+                        <h3 class="mob-nome">BEAST BOY</h3>
+                        <p class="mob-desc">PROTÓTIPO DESCARTADO</p>
+                        <button class="btn-comprar">VER MUSEU</button>
+                    </div>
+
+                    <div class="card-mob">
+                        <span class="tag-card tag-secretos">SECRETOS</span>
+                        <img src="img/jeb.jpeg" alt="Jeb_" class="mob-foto">
+                        <h3 class="mob-nome">JEB_</h3>
+                        <p class="mob-desc">RENOMEAR PARA JEB_</p>
+                        <button class="btn-comprar">VER MUSEU</button>
+                    </div>
+
+                    <div class="card-mob">
+                        <span class="tag-card tag-alpha">ALPHA</span>
+                        <img src="img/iceologer.jpeg" alt="Iceologer" class="mob-foto">
+                        <h3 class="mob-nome">ICEOLOGER</h3>
+                        <p class="mob-desc">PERDEU NO MOB VOTE</p>
+                        <button class="btn-comprar">VER MUSEU</button>
+                    </div>
+
+                    <div class="card-mob">
+                        <span class="tag-card tag-cancelados">CANCELADOS</span>
+                        <img src="img/moobloom.jpeg" alt="Moobloom" class="mob-foto">
+                        <h3 class="mob-nome">MOBLOOM</h3>
+                        <p class="mob-desc">PERDEU NO MOB VOT</p>
+                        <button class="btn-comprar">VER MUSEU</button>
+                    </div>
+
+                </div>
+                <button class="seta-carrossel seta-direita">&#x276F;</button>
+            </div>
+
+            <div class="galeria-rodape">
+                <div class="indicadores-paginas">
+                    <span class="bola active"></span>
+                    <span class="bola"></span>
+                    <span class="bola"></span>
+                </div>
+                <button class="btn-explorar-mais">EXPLORAR MAIS MOBS</button>
+            </div>
+        </section>
+
+        <!-- CARDS COMUNIDADE + DOAÇÃO -->
+        <div class="cards-container">
+
+            <div class="card card-comunidade">
+                <h2>COMUNIDADE</h2>
+                <div class="card-section">
+                    <h3>Participe</h3>
+                    <p>Converse com a comunidade e compartilhe descobertas</p>
+                </div>
+                <div class="card-section">
+                    <h3>Discuta</h3>
+                    <p>Troque ideias, teorias e ajude a preservar a história do jogo</p>
+                </div>
+                <a href="#" class="btn btn-comunidade">entrar na comunidade</a>
+            </div>
+
+            <div class="card card-doacao">
+                <h2>DOAÇÃO</h2>
+                <div class="card-section">
+                    <h3>Apoie</h3>
+                    <p>Sua doação mantém o museu vivo e em constante expansão</p>
+                </div>
+                <div class="card-section">
+                    <h3>PRESERVE</h3>
+                    <p>Ajude a preservar arquivos, modelos e informações raras</p>
+                </div>
+                <a href="#" class="btn btn-doacao">entrar na comunidade</a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /secao-principal -->
+
+    <!-- ESTATÍSTICAS -->
+    <section class="secao-estatisticas">
+        <div class="card-estatistica borda-azul">
+            <p class="estatistica-desc">MOBS CATALOGADOS PARA EXPLORAR, DOAR E RESGATAR</p>
+            <span class="estatistica-numero num-azul">271</span>
+        </div>
+        <div class="card-estatistica borda-roxo">
+            <p class="estatistica-desc">ARQUIVOS ENCONTRADOS E RECUPERADOS PARA LEITURA</p>
+            <span class="estatistica-numero num-roxo">93</span>
+        </div>
+        <div class="card-estatistica borda-verde">
+            <p class="estatistica-desc">TEORIAS DA COMUNIDADE REGISTRADAS</p>
+            <span class="estatistica-numero num-verde">38</span>
+        </div>
+        <div class="card-estatistica borda-laranja">
+            <p class="estatistica-desc">DOAÇÕES RECEBIDAS DENTRO DA PLATAFORMA</p>
+            <span class="estatistica-numero num-laranja">314</span>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape-site">
+        <div class="rodape-container">
+
+            <div class="rodape-coluna col-logo">
+                <img src="img/logo_museu.png" alt="Museu de Mobs Perdidos" class="rodape-logo">
+                <div class="rodape-redes">
+                    <img src="img/insta.png" alt="Instagram" class="icone-rede">
+                    <img src="img/youtube.png" alt="YouTube" class="icone-rede">
+                    <img src="img/x.png" alt="Twitter/X" class="icone-rede">
+                    <img src="img/face.png" alt="Facebook" class="icone-rede">
+                </div>
+            </div>
+
+            <div class="divisor-vertical"></div>
+
+            <div class="rodape-coluna">
+                <h3>NAVEGAÇÃO</h3>
+                <ul>
+                    <li>Início</li>
+                    <li>Museu</li>
+                    <li>Loja</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+
+            <div class="divisor-vertical"></div>
+
+            <div class="rodape-coluna">
+                <h3>INFORMAÇÕES</h3>
+                <ul>
+                    <li>Como funciona</li>
+                    <li>Regras do Museu</li>
+                    <li>Política de privacidade</li>
+                    <li>Termos de uso</li>
+                </ul>
+            </div>
+
+            <div class="divisor-vertical"></div>
+
+            <div class="rodape-coluna">
+                <h3>ARQUIVOS</h3>
+                <ul>
+                    <li>Alpha</li>
+                    <li>Beta</li>
+                    <li>Mob Vote</li>
+                    <li>Protótipos</li>
+                    <li>Cancelados</li>
+                </ul>
+            </div>
+
+            <div class="divisor-vertical"></div>
+
+            <div class="rodape-coluna col-news">
+                <div class="caixa-newsletter">
+                    <h3>RECEBA NOVIDADES</h3>
+                    <div class="input-news-wrapper">
+                        <input type="email" placeholder="Seu e-mail" class="input-news">
+                        <span class="icone-carta">&#x2709;</span>
+                    </div>
+                    <p class="desc-news">Fique por dentro das novas exposições e descobertas!</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="rodape-direitos">
+            <p>&copy; 2026 Museu dos Mobs Perdidos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
